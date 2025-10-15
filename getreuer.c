@@ -1028,7 +1028,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
         clear_mods();
         clear_weak_mods();
         send_keyboard_report();
-        MAGIC_STRING("getreuer", KC_AT);
+        MAGIC_STRING("16thomja", KC_AT);
         return false;
 
       case ARROW:  // Unicode arrows -> => <-> <=> through Shift and Alt.
