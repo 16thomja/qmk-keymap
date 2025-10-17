@@ -103,7 +103,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // key, implemented using the Alternate Repeat Key. This key is used to remove
   // the top SFBs and type common n-grams.
   [BASE] = LAYOUT_LR(  // Base layer: Magic Sturdy.
-    KC_GRV , SELLINE, C(KC_V), C(KC_A), C(KC_C), MS_BTN1,
+    KC_GRV , SELLINE, G(KC_V), G(KC_A), G(KC_C), MS_BTN1,
     KC_TAB , KC_V   , KC_M   , KC_L   , KC_C   , KC_P   ,
     KC_BSPC, HRM_S  , HRM_T  , HRM_R  , HRM_D  , KC_Y   ,
     EXT_COL, HRM_X  , KC_K   , KC_J   , HRM_G  , KC_W   ,
@@ -140,7 +140,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                       _______, _______, _______, _______, _______, _______,
                       KC_PGUP, KC_HOME, KC_UP  , KC_END , SRCHSEL, _______,
                       KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL , _______,
-                      C(KC_Z), SELWBAK, SELWORD, KC_APP , XXXXXXX, _______,
+                      G(KC_Z), SELWBAK, SELWORD, KC_APP , XXXXXXX, _______,
              _______, QK_LLCK
   ),
 
@@ -188,9 +188,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [EXT] = LAYOUT_LR(  // Mouse and extras.
     _______, _______, _______, _______, _______, _______,
-    _______, C(KC_Z), OM_W_L , KC_BSPC, KC_SPC , OM_W_R ,
+    _______, G(KC_Z), OM_W_L , KC_BSPC, KC_SPC , OM_W_R ,
     OM_SLOW, KC_LALT, KC_LCTL, KC_LSFT, SELLINE, XXXXXXX,
-    _______, KC_LGUI, C(KC_V), C(KC_A), C(KC_C), C(KC_X),
+    _______, KC_LGUI, G(KC_V), G(KC_A), G(KC_C), G(KC_X),
                                                  KC_WBAK, OM_BTN1,
 
                       _______, _______, _______, _______, _______, _______,
